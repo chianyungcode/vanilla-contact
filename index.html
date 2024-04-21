@@ -11,7 +11,7 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="modal" class="modal hidden">
+    <div id="modal" class="modal">
       <div class="modal-content">
         <span class="close-button">&times;</span>
         <h2>Tambah Kontak Baru</h2>
@@ -65,14 +65,9 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>John Doe</td>
-                <td>08123456789</td>
-                <td><button>Edit</button> <button>Delete</button></td>
-              </tr>
-              <tr>
-                <td>Jane Doe</td>
-                <td>08987654321</td>
+              <tr id="table-row">
+                <td id="contact-name"></td>
+                <td id="contact-phone"></td>
                 <td><button>Edit</button> <button>Delete</button></td>
               </tr>
             </tbody>
